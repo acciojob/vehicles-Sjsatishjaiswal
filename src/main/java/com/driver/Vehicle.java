@@ -1,6 +1,12 @@
 package com.driver;
 
 public class Vehicle {
+//    Vehicle: name, currentSpeed, currentDirection
+//    constructor: given the name of the vehicle, initialize speed and direction as 0.
+//    move(speed, direction): set the current speed and direction
+//    steer(direction): Add direction to the currentDirection
+//    stop(): Stop the car by setting current speed to 0
+
 
     private String name;
     private int currentSpeed;

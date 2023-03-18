@@ -1,6 +1,11 @@
 package com.driver;
 
 public class Car extends Vehicle {
+//    Car: extends Vehicle
+//
+//    constructor: initialize the variables using parameters and set currentGear as 1.
+//    changeGear(newGear): set the current gear to newGear parameter.
+//            changeSpeed(newSpeed, newDirection): set the speed and direction using move().
     private int wheels;
     private String type;
     private int doors;
